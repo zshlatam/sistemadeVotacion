@@ -9,23 +9,20 @@ Instrucciones para la instalación del proyecto
     Usuario: tester
     Contraseña: 123123123
 3. Creamos la base de datos "app_votaciones" y revisamos que el usuario tester tiene los privilegios necesarios para manipular la db.
-4. Creamos la carpeta que mantendrá el proyecto de github, en mi caso se llama "sistemadeVotacion". 
-5. Dentro descargamos el repositorio de github.
-6. Entonces la ruta para acceder sería:
-     http://localhost:8888/sistemadeVotacion/app/  <- para Home 
-     http://localhost:8888/sistemadeVotacion/app/views/cuestionario.php <- para el formulario
-7. Una vez descargado el proyecto, tenemos acceso al Script de la base de datos "sistemadeVotacion"
+4. Dentro de htdocs/ (en mi caso), descargamos el repositorio de github.
+5. La ruta para acceder sería:
+     http://localhost:8888/sistemadeVotacion/  <- para Home 
+6. Una vez descargado el proyecto, tenemos acceso al Script de la base de datos.
     Esta se encuentra en la carpeta ScriptDatabase/.
-8. En mi caso ejecuto el Script desde phpMyAdmin5 y se crean las tablas y información relevante.
+7. En mi caso ejecuto el Script desde phpMyAdmin5 y se crean las tablas y información relevante.
     Destacar que en la carpeta hay 2 Script para la base de datos:
-    - Script-db-Completo.sql contiene las tablas y completamente pobladas.
-    - Script-db-sin-regiones-comunas.sql contiene las tablas pero no tiene pobladas las tablas Regiones y Comunas, 
+    a) Script-db-Completo.sql contiene las tablas y completamente pobladas.
+    b) Script-db-sin-regiones-comunas.sql contiene las tablas pero no tiene pobladas las tablas Regiones y Comunas, 
      esto porque dentro del proyecto hay un Script que se activa presionando un botón y pobla las Regiones y Comunas.
-9. Hecho esto, ya podemos ingresar al proyecto, en caso que haya creado otro usuario para la BD se tiene que cambiar las credenciales
+8. Hecho esto, ya podemos ingresar al proyecto, en caso que haya creado otro usuario para la BD se tiene que cambiar las credenciales
     en la el archivo database.php que se encuentra en -> config/database.php
-10. Al ingresar a la raíz / del proyecto podemos ver una bienvenida y el botón de ir a formulario.
-11. Ingresando al formulario podemos ver el formulario con su header donde tienes los botones para volver a Home o Cargar Regiones/Comunas
-12. Para obtener más información detallada, puede revisar el archivo README del proyecto.
-
+9. Al ingresar a la raíz / del proyecto podemos ver una bienvenida y el botón de ir a formulario.
+10. Ingresando al formulario podemos ver el formulario con su header donde tienes los botones para volver a Home o Cargar Regiones/Comunas
+11. Para obtener más información detallada, puede revisar el archivo README del proyecto.
 
 
