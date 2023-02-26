@@ -26,3 +26,4 @@ Instrucciones para la instalación del proyecto
 11. Para obtener más información detallada, puede revisar el archivo README del proyecto.
 
 
+Quisiera destacar que para conexión con la db, en script de carga de regiones y comunas utilice Mysqli y para el proyecto PDO.
