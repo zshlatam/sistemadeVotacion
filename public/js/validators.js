@@ -88,6 +88,8 @@ formulario.addEventListener("submit", function (event) {
       alerta_email.removeAttribute("hidden");
       event.preventDefault();
     }
+  }else{
+    alerta_email.setAttribute("hidden", "");
   }
   
   // Validamos que la region sea escogida y no tome el valor por defecto
